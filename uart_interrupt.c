@@ -12,7 +12,7 @@ UART Interrupt Example
 #include "sdkconfig.h"
 #include "esp_intr_alloc.h"
 
-
+#include "soc/uart_struct.h" //contains UART0 definition
 
 #define BLINK_GPIO GPIO_NUM_2
 
